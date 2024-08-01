@@ -44,8 +44,8 @@ setSize(priceRef.current.value)
   return (
     <div>   
       <div>
-        <div className="card mt-3" style={{"width":"20rem","maxHeight":"360px"}}>
-    <img src={props.foodItem.img} className="card-img-top" alt="..." style={{height:"360px", objectfit:"fill", overflow:'hidden'}}/>
+        <div className="card mt-3" style={{"width":"20rem","maxHeight":"400px"}}>
+    <img src={props.foodItem.img} className="card-img-top" alt="..." style={{height:"400px", objectfit:"fill", overflow:'hidden'}}/>
     <div className="card-body">
       <h5 className="card-title">{props.foodItem.name}</h5>
       
