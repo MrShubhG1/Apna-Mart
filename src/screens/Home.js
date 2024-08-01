@@ -1,3 +1,4 @@
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
@@ -38,16 +39,13 @@ export default function Home() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://www.caterninja.com/frontend/web/images/app_img/no-image.jpg" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347369/india-food-samosa/india-food-samosa-1120x732.jpg" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/N4OMNRPBIIK3W6NUUOYE6FZOEY.jpg&w=1440" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
+            <img src="https://www.blinkco.io/wp-content/uploads/2022/02/grocery-shopping-5987164_1280.jpg" style={{filter:"brightness(30%)"}} alt="..." />
           </div>
           <div className="carousel-item active">
-            <img src="https://recipes.net/wp-content/uploads/2023/05/paneer-tikka-recipe_dd8749bd6fa626e2b38ad467137bd8ae.jpeg" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
+            <img src="https://food-ubc.b-cdn.net/wp-content/uploads/2020/02/Save-Money-On-Groceries_UBC-Food-Services.jpg" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750/f_auto/saving-money-on-groceries-phpf0594m" className="d-block w-100 img-fluid" style={{filter:"brightness(30%)"}} alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
