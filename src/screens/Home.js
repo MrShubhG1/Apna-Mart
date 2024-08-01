@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import Card from '../components/Card';
 import React, { useEffect, useState } from 'react';
 
-
 export default function Home() {
   const [search, setSearch] = useState('')
   const [foodCat, setFoodCat] = useState([])
