@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://codewithmrshubh:hello123@cluster0.sjkvbtv.mongodb.net/Database?retryWrites=true&w=majority&appName=Cluster0'
+const mongoURI = 'mongodb+srv://codewithmrshubh:hello123@cluster0.sjkvbtv.mongodb.net/Db?retryWrites=true&w=majority&appName=Cluster0'
 const mongoDB = async () => {
     await mongoose.connect(mongoURI, { useNewUrlParser: true }, async(err, result) => {
         if(err) 
