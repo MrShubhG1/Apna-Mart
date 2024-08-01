@@ -18,7 +18,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-black">
         <div className="container-fluid">
-          <Link className="navbar-brand fs-1 fw-bold px-4 fst-italic" to="/">Saffron</Link>
+          <Link className="navbar-brand fs-1 fw-bold px-4 fst-italic" to="/">Apna Mart</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -54,7 +54,6 @@ export default function Navbar() {
                   </div>
                 </div>
             }
-
           </div>
         </div>
       </nav>
